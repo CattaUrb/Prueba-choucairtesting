@@ -8,6 +8,5 @@ module.exports = defineConfig({
     },
   video: true, // Activa la grabación de videos
   supportFile: "cypress/support/e2e.js"
-
   },
 });
