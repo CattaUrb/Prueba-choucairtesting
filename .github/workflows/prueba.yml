@@ -25,6 +25,12 @@ jobs:
 
             - name: correr proyecto
               run: npx cypress run
+
+            - name: Upload Cypress Videos
+              uses: actions/upload-artifact@v4
+              with:
+                  name: cypress-videos
+                  path: cypress/videos/**/*.mp4
               
 
  
