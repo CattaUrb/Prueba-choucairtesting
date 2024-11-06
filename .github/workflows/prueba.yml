@@ -11,7 +11,19 @@ jobs:
         steps:
             - name: Checkout
               uses: actions/checkout@v4
+
             - name: mi primer action
               run: echo 'hola mundo'
+
+            - name: instalacion de node
+              uses: actions/setup-node@v4
+              with:
+                node-version: 'node'
+
+            - name: instalar dependencia
+              run: npm install
+
+            - name: correr proyecto
+              run: npx cypress run
 
  
