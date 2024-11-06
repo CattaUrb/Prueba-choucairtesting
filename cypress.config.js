@@ -7,6 +7,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   video: true, // Activa la grabación de videos
+  supportFile: "cypress/support/e2e.js"
 
   },
 });

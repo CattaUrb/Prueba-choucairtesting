@@ -25,5 +25,6 @@ jobs:
 
             - name: correr proyecto
               run: npx cypress run
+              
 
  
